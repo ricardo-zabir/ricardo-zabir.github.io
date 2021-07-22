@@ -3,23 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <title>Ricardo Fonseca Zabir - Portfólio</title>
+    <style>
+    #title {
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+    #desc {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    body {
+        background-color: #fdfcdc;
+        color: #0081a7;
+    }
+    .list {
+        line-height: 30px;
+    }
+    .links {
+        color:#0081a7;
+        
+    }
+    .dest {
+        font-weight: 700;
+        font-size: large;
+    }
+    
+    </style>
 </head>
 <body>
-    <h1>Ricardo Fonseca Zabir</h1>
-    <a href="#desc">Descrição</a> <br>
-    <a href="#foto">Foto</a> <br>
-    <a href="#hab">Habilidades</a> <br>
-    <a href="#seb">Sites e blogs que me interesso</a>
+    <h1 id="title">Ricardo Fonseca Zabir</h1>
+    <ul class="list">
+    <li><a class="links" href="#desc">Descrição</a> <br></li>
+    <li><a class="links" href="#foto">Foto</a> <br></li>
+    <li><a class="links" href="#hab">Habilidades</a> <br></li>
+    <li><a class="links" href="#seb">Sites e blogs que me interesso</a></li>
     <br>
     <img id="foto" src="IMG_0572.JPG" alt="foto de Ricardo Fonseca Zabir" width="250px">
-    <p id="desc">Nascido em Porto Alegre e habitante de Gravataí, tenho 19 anos e sou estudante do curso
+    <p id="desc">Nascido em <strong>Porto Alegre</strong> e habitante de Gravataí, tenho 19 anos e sou estudante do curso
     <br> de <em>Ciência de Dados e Inteligência Artficial</em> na PUCRS e de desenvolvimento Web na es-
     <br> cola de programação Trybe.   
     </p>
     <h3 id="hab">Habilidades:</h3>
-    <ul>
+    <ul class="list">
     <li>Capacidade de trabalhar em equipe</li>    
-    <li>Inglês fluente</li>
+    <li class="dest">Inglês fluente</li>
     <li><strong>Capacidade de programar em Java</strong></li>
     <li>Amplo conhecimento matemático</li>
     <li>Grande adaptabilidade</li>
@@ -27,11 +53,11 @@
     </ul>
     <h3 id="seb">Sites e blogs que me interesso</h3>
     <ul>
-    <li><a href="https://www.urionlinejudge.com.br/judge/en/login" target="_blank">URI Online Judge</a></li>
+    <li><a class="links" href="https://www.urionlinejudge.com.br/judge/en/login" target="_blank">URI Online Judge</a></li>
     <br>
-    <li><a href="https://www.codecademy.com/" target="_blank">Codecademy</a></li>
+    <li><a class="links" href="https://www.codecademy.com/" target="_blank">Codecademy</a></li>
     <br>
-    <li><a href="https://ge.globo.com/" target="_blank">Globo Esporte</a></li>
+    <li><a class="links" href="https://ge.globo.com/" target="_blank">Globo Esporte</a></li>
     <br>
     </ul>
 </body>
