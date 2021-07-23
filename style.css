@@ -39,9 +39,7 @@ body {
   color: indigo;
   text-align: center;
 }
-div {
-  border: 2px solid green;
-}
+
 #hablist li:nth-child(odd)
 {
   background-color: green;
