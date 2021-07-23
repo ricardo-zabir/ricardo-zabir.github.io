@@ -1,0 +1,49 @@
+#title {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+#desc {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 60px;
+  height: 120px;
+}
+body {
+  background-color: #fdfcdc;
+  color: #0081a7;
+  text-align: center;
+}
+.list {
+  line-height: 30px;
+  color: indigo;
+  list-style: none;
+}
+.links {
+  color:#0081a7;
+}
+.dest {
+  font-weight: 700;
+  font-size: large;
+}
+#foto {
+  border-radius: 50%;
+  float: left;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color:green;
+  
+}
+
+.habilidades {
+  clear: both;
+  background-color:rgb(240, 220, 220);
+  color: indigo;
+  text-align: center;
+}
+div {
+  border: 2px solid green;
+}
+#hablist li:nth-child(odd)
+{
+  background-color: green;
+  color: white;
+}

@@ -3,46 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Ricardo Fonseca Zabir - Portfólio</title>
-    <style>
-    #title {
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-        
-    }
-    #desc {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    body {
-        background-color: #fdfcdc;
-        color: #0081a7;
-        text-align: center;
-    }
-    .list {
-        line-height: 30px;
-        color: indigo;
-    }
-    .links {
-        color:#0081a7;
-    }
-    .dest {
-        font-weight: 700;
-        font-size: large;
-    }
-    #foto {
-        border-radius: 50%;
-    }
-    #hab {
-        background-color:rgb(240, 220, 220);
-        color: indigo
-    }
-    #hablist {
-        background-color:rgb(240, 220, 220);
-        color: indigo
-    }
-   
-    
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div>
     <h1 id="title">Ricardo Fonseca Zabir</h1>
     <ul class="list">
     <li><a class="links" href="#desc">Descrição</a> <br></li>
@@ -50,12 +14,13 @@
     <li><a class="links" href="#hab">Habilidades</a> <br></li>
     <li><a class="links" href="#seb">Sites e blogs que me interesso</a></li></ul>
     <br>
+    <div class="photo_description">
     <img id="foto" src="IMG_0572.JPG" alt="foto de Ricardo Fonseca Zabir" width="250px">
     <p id="desc">Nascido em <strong>Porto Alegre</strong> e habitante de Gravataí, tenho 19 anos e sou estudante do curso
     <br> de <em>Ciência de Dados e Inteligência Artficial</em> na PUCRS e de desenvolvimento Web na es-
-    <br> cola de programação Trybe.   
-    </p>
-    <h3 id="hab">Habilidades:</h3>
+    <br> cola de programação Trybe.
+    </p></div></div>
+    <div class="habilidades"><h3 id="hab">Habilidades:</h3>
     <ul class="list" id="hablist">
     <li>Capacidade de trabalhar em equipe</li>    
     <li class="dest">Inglês fluente</li>
@@ -63,9 +28,9 @@
     <li>Amplo conhecimento matemático</li>
     <li>Grande adaptabilidade</li>
     <li>Entusiasta da área de tecnologia</li>
-    </ul>
+    </ul></div>
     <h3 id="seb">Sites e blogs que me interesso</h3>
-    <ul id="blogs_list">
+    <ul class="list" id="blogs_list">
     <li><a class="links" href="https://www.urionlinejudge.com.br/judge/en/login" target="_blank">URI Online Judge</a></li>
     <br>
     <li><a class="links" href="https://www.codecademy.com/" target="_blank">Codecademy</a></li>
